@@ -9,7 +9,7 @@ frontend:
         - echo "THE_KEY = $THE_KEY" >> .env
     build:
       commands:
-        - npm run build
+        - yarn run build
   artifacts:
     baseDirectory: dist
     files:
