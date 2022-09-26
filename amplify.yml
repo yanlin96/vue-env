@@ -5,6 +5,7 @@ frontend:
       commands:
         - npm ci
         - echo "VUE_APP_GOOGLE_KEY = $VUE_APP_GOOGLE_KEY" >> .env
+        - echo "GOOGLE_KEY" = $VUE_APP_GOOGLE_KE" >> .env
     build:
       commands:
         - npm run build
